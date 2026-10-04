@@ -10,7 +10,7 @@ Videojuego de estrategia y acción desarrollado en Java que recrea la experienci
 * **Lou Gómez** — Desarrollo y arquitectura de software.
 * **Iván Herrera** — Desarrollo de software y creación íntegra de todo el arte y recursos visuales del juego.
 * **Daniel Talmaci** — Desarrollo y arquitectura de software.
-* **June Castro** — Desarrollo y arquitectura de software.
+* **David Miguez** — Desarrollo y arquitectura de software.
 
 ---
 
