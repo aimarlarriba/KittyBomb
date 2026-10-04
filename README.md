@@ -1,4 +1,4 @@
-# Bomberman GE
+# KittyBomb
 
 Videojuego de estrategia y acción desarrollado en Java que recrea la experiencia clásica de Bomberman, diseñado e implementado bajo estrictos principios de Ingeniería de Software. Este proyecto forma parte de la asignatura **Ingeniería del Software** del **Grado en Ingeniería Informática de Gestión y Sistemas de Información** en la **EHU**.
 
