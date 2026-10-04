@@ -2,7 +2,7 @@
 set -e
 
 echo "========================================================"
-echo "              Launching KittyBomb..."
+echo "              Launching KittyBoom..."
 echo "========================================================"
 
 if ! command -v javac &> /dev/null; then
@@ -29,5 +29,5 @@ cp -r src/viewController/Imagenes/* bin/viewController/Imagenes/ 2>/dev/null || 
 cp -r src/viewController/Objetos/* bin/viewController/Objetos/ 2>/dev/null || true
 cp -r src/viewController/Bomberman/* bin/viewController/Bomberman/ 2>/dev/null || true
 
-echo "[*] Starting KittyBomb!"
+echo "[*] Starting KittyBoom!"
 java -cp bin main.main

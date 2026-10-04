@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/viewController/Imagenes/title.png" width="460" alt="KittyBomb Logo"/>
+  <img src="src/viewController/Imagenes/title.png" width="460" alt="KittyBoom Logo"/>
 </p>
 
 <h3 align="center">🐾 Retro Bomberman-Inspired Arcade Game Engineered in Java</h3>
@@ -32,7 +32,7 @@
 
 ## 🌟 Overview & Highlights
 
-**KittyBomb** reimagines the classic arcade Bomberman formula with a feline twist. Developed collaboratively by computer engineering students, the project prioritizes **code quality, modularity, high cohesion, and low coupling** over ad-hoc game scripts.
+**KittyBoom** reimagines the classic arcade Bomberman formula with a feline twist. Developed collaboratively by computer engineering students, the project prioritizes **code quality, modularity, high cohesion, and low coupling** over ad-hoc game scripts.
 
 * **Clean Object-Oriented Design:** Zero monolithic god-classes. Entity behaviors are delegated to specialized strategy and state components.
 * **Reactive UI Synchronization:** Uses the **Observer Pattern** to decouple high-frequency game loop updates from Swing graphical components.
@@ -200,7 +200,7 @@ classDiagram
 ## 📁 Project Structure
 
 ```text
-KittyBomb/
+KittyBoom/
 ├── src/                                     # Source Code & Assets
 │   ├── main/
 │   │   └── main.java                        # Application Bootstrap
@@ -235,22 +235,22 @@ Clone the repository and run the startup script for your operating system:
 
 **Windows:**
 ```cmd
-git clone https://github.com/aimarlarriba/KittyBomb.git
-cd KittyBomb
+git clone https://github.com/aimarlarriba/KittyBoom.git
+cd KittyBoom
 run.bat
 ```
 
 **Linux / macOS:**
 ```bash
-git clone https://github.com/aimarlarriba/KittyBomb.git
-cd KittyBomb
+git clone https://github.com/aimarlarriba/KittyBoom.git
+cd KittyBoom
 chmod +x run.sh
 ./run.sh
 ```
 
 ### Option 2: Running in Eclipse / IntelliJ IDEA
 1. Open your IDE and choose **Import Existing Project** (or **Open Folder**).
-2. Select the `KittyBomb` root directory.
+2. Select the `KittyBoom` root directory.
 3. Verify that `src` is marked as the **Source Root**.
 4. Run `main.main` as a **Java Application**.
 
@@ -258,7 +258,7 @@ chmod +x run.sh
 To create a portable, standalone executable `.jar` file:
 ```cmd
 build_jar.bat
-java -jar KittyBomb.jar
+java -jar KittyBoom.jar
 ```
 
 ---

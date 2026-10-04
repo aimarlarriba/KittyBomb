@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 echo ========================================================
-echo             Building KittyBomb Executable JAR
+echo             Building KittyBoom Executable JAR
 echo ========================================================
 
 where javac >nul 2>nul
@@ -36,15 +36,15 @@ xcopy /E /I /Y "src\viewController\Imagenes" "bin\viewController\Imagenes" >nul 
 xcopy /E /I /Y "src\viewController\Objetos" "bin\viewController\Objetos" >nul 2>nul
 xcopy /E /I /Y "src\viewController\Bomberman" "bin\viewController\Bomberman" >nul 2>nul
 
-echo [*] Packaging KittyBomb.jar...
-"!JAR_CMD!" cfe KittyBomb.jar main.main -C bin .
+echo [*] Packaging KittyBoom.jar...
+"!JAR_CMD!" cfe KittyBoom.jar main.main -C bin .
 
-if exist "KittyBomb.jar" (
+if exist "KittyBoom.jar" (
     echo.
-    echo [SUCCESS] KittyBomb.jar successfully created!
-    echo You can now launch it by running: java -jar KittyBomb.jar
+    echo [SUCCESS] KittyBoom.jar successfully created!
+    echo You can now launch it by running: java -jar KittyBoom.jar
 ) else (
-    echo [ERROR] Failed to package KittyBomb.jar.
+    echo [ERROR] Failed to package KittyBoom.jar.
 )
 
 if "%~1"=="" if not defined CI pause

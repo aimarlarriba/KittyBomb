@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 echo ========================================================
-echo               Launching KittyBomb...
+echo               Launching KittyBoom...
 echo ========================================================
 
 :: Check for Java installation
@@ -42,7 +42,7 @@ xcopy /E /I /Y "src\viewController\Imagenes" "bin\viewController\Imagenes" >nul 
 xcopy /E /I /Y "src\viewController\Objetos" "bin\viewController\Objetos" >nul 2>nul
 xcopy /E /I /Y "src\viewController\Bomberman" "bin\viewController\Bomberman" >nul 2>nul
 
-echo [*] Starting KittyBomb!
+echo [*] Starting KittyBoom!
 java -cp bin main.main
 
 endlocal
