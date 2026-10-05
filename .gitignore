@@ -21,6 +21,9 @@ target/
 .gradle/
 
 # Eclipse IDE
+.project
+.classpath
+.settings/
 .metadata/
 *.tmp
 *.bak
