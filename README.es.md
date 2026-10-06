@@ -1,4 +1,4 @@
-[🇬🇧 English](README.md) | [🇪🇸 Español](README.es.md)
+🌐 **Language / Idioma:** [English](README.md) • [Español](README.es.md)
 
 <p align="center">
   <img src="src/viewController/Imagenes/title.png" width="460" alt="Logo de KittyBoom"/>
